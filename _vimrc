@@ -3,11 +3,14 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+"Custom options
 colorscheme murphy
 set smartindent
 set tabstop=4
 set shiftwidth=4 expandtab
 set number!
+set listchars=tab:>>,trail:.,nbsp:_
+"End of custom options
 
 set diffexpr=MyDiff()
 function MyDiff()
