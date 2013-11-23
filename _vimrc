@@ -3,15 +3,6 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
-"Custom options
-colorscheme murphy
-set smartindent
-set tabstop=4
-set shiftwidth=4 expandtab
-set number!
-set listchars=tab:>>,trail:.,nbsp:_
-"End of custom options
-
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
@@ -37,3 +28,7 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+"Custom options
+if filereadable("vimrc_custom")
+  source vimrc_custom
+endif
