@@ -53,6 +53,6 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 "Custom options
-if filereadable("vimrc_custom")
-  source vimrc_custom
+if filereadable("/etc/vim/vimrc_custom")
+  source /etc/vim/vimrc_custom
 endif
