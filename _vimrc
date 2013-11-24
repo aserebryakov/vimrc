@@ -29,6 +29,6 @@ function MyDiff()
 endfunction
 
 "Custom options
-if filereadable("vimrc_custom")
-  source vimrc_custom
+if filereadable("C:\\Program\ Files\\Vim\\vimrc_custom")
+  source C:\\Program Files\\Vim\\vimrc_custom
 endif
