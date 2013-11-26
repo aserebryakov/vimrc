@@ -5,7 +5,11 @@ set tabstop=4
 set shiftwidth=4 expandtab
 set number!
 set listchars=tab:>>,trail:.,nbsp:_
+
 "Custom commands to replace tabs with spaces and vice versa
 command! -nargs=0 TTS :%s/\t/    /g
 command! -nargs=0 STT :%s/\s\s\s\s/\t/g
+
+"Custom mappings
+nmap <C-n> :NERDTreeToggle<CR>
 "End of custom options
