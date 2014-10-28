@@ -1,9 +1,9 @@
 "Custom options
-colorscheme murphy
+colorscheme slate
 set smartindent
 set tabstop=4
 set shiftwidth=4 expandtab
-set number!
+set number
 set listchars=tab:>>,trail:.,nbsp:_
 set list
 
@@ -11,6 +11,10 @@ set list
 command! -nargs=0 TTS :%s/\t/    /g
 command! -nargs=0 STT :%s/\s\s\s\s/\t/g
 
+"Custom command to remove trailing spaces
+command! -nargs=0 RES :%s/\s\+$//g
+
 "Custom mappings
 nmap <C-n> :NERDTreeToggle<CR>
+nmap ; :
 "End of custom options
