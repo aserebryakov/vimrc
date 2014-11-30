@@ -1,3 +1,6 @@
 [submodule "vimfiles/bundle/nerdtree"]
 	path = vimfiles/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/filestyle"]
+	path = vimfiles/bundle/filestyle
+	url = git@github.com:aserebryakov/filestyle.git
