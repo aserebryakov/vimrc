@@ -1,9 +1,9 @@
 "Settings for *.vim files
 
-set smartindent
-set tabstop=2
-set shiftwidth=2 expandtab
-set number
-set listchars=tab:>>,trail:.,nbsp:_
-set list
+setlocal smartindent
+setlocal tabstop=2
+setlocal shiftwidth=2 expandtab
+setlocal number
+setlocal listchars=tab:>>,trail:.,nbsp:_
+setlocal list
 
