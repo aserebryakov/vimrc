@@ -1,3 +1,4 @@
-cp vimrc /etc/vim/
-cp vimrc_custom /etc/vim/
-cp --recursive vimfiles/* ~/.vim
+git submodule init
+git submodule update
+cp .vimrc ~/.vimrc
+cp --recursive .vim ~/
