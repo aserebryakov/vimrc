@@ -5,10 +5,13 @@ set number
 set t_Co=256
 filetype plugin on
 
+"Fix the backspace
+set backspace=indent,eol,start
+
 "Custom mappings
 nmap <C-n> :NERDTreeToggle<CR>
 nmap ; :
-"End of custom options
+"End of custom mappings
 
 let g:filestyle_ignore_patterns = ['^>\s\+', '^>>\s\+']
 
