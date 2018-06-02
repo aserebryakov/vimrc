@@ -5,7 +5,7 @@ set number
 set t_Co=256
 filetype plugin on
 
-"Fix the backspace
+"Fix the backspace issue on some systems
 set backspace=indent,eol,start
 
 "Custom mappings

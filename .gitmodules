@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vim-todo-lists"]
 	path = .vim/bundle/vim-todo-lists
 	url = https://github.com/aserebryakov/vim-todo-lists.git
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = https://github.com/aserebryakov/rust.vim.git
