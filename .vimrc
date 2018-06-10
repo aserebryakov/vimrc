@@ -4,6 +4,7 @@ syntax on
 set number
 set t_Co=256
 filetype plugin on
+set hls
 
 "Fix the backspace issue on some systems
 set backspace=indent,eol,start
