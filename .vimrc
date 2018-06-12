@@ -19,4 +19,4 @@ let g:filestyle_ignore_patterns = ['^>\s\+', '^>>\s\+']
 
 "Pathogen activation
 execute pathogen#infect()
-colorscheme base16-ashes
+colorscheme base16-eighties
