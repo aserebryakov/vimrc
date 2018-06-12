@@ -5,6 +5,7 @@ set number
 set t_Co=256
 filetype plugin on
 set hls
+set ruler
 
 "Fix the backspace issue on some systems
 set backspace=indent,eol,start
