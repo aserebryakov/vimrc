@@ -15,8 +15,4 @@ nmap <C-n> :NERDTreeToggle<CR>
 nmap ; :
 "End of custom mappings
 
-let g:filestyle_ignore_patterns = ['^>\s\+', '^>>\s\+']
-
-"Pathogen activation
-execute pathogen#infect()
 colorscheme base16-eighties
