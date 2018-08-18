@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/rust.vim"]
 	path = .vim/pack/bundle/start/rust.vim
 	url = https://github.com/aserebryakov/rust.vim.git
+[submodule ".vim/pack/bundle/start/vim-branch-stack"]
+	path = .vim/pack/bundle/start/vim-branch-stack
+	url = https://github.com/aserebryakov/vim-branch-stack.git
