@@ -16,3 +16,5 @@ nmap ; :
 "End of custom mappings
 
 colorscheme base16-eighties
+
+let g:VimTodoListsDatesEnabled = 1
