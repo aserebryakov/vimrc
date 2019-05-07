@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Initializing Modules"
 git submodule init
 git submodule update
